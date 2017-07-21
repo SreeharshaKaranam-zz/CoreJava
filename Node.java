@@ -1,11 +1,11 @@
 package com.wordpress.sreeharshasite;
-public class Node
+public class Node<T>
  
 {
  
 int data;
  
-Node nextNode;
+Node<T> nextNode;
  
 public Node(int data)
  
